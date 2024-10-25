@@ -1,6 +1,8 @@
 # JavaScript
 JavaScript is a high-level, versatile programming language primarily used to make web pages interactive. Created in 1995 by Brendan Eich, it has since become one of the core technologies of the web, alongside HTML and CSS.JavaScript allows you to create dynamic content, control multimedia, animate images, and more, making it essential for building modern web applications.
 
+### [Fundamentals](https://github.com/BekCodingAddict/JavaScript/tree/master/Fundamentals)
+
 - Here's a breakdown of JavaScript's main aspects:
 
 - Dynamic and Lightweight: JavaScript is interpreted, meaning it runs directly in the browser without needing a compiler. This makes it lightweight and dynamic, allowing developers to test and make changes quickly.

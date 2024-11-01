@@ -17,4 +17,14 @@ document.querySelector(".parent").addEventListener("click", () => {
 ```
 If you click on the .child element, only the "Child clicked!" message will be logged, because stopPropagation() prevents the click event from reaching .parent.
 
+### When to Use Them Together
 
+You might want to stop both the default action and event propagation, like when you have nested clickable elements and also want to prevent the default action of a link or form:
+```javascript
+document.querySelector(".button").addEventListener("click", (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+  console.log("Button click handled, no default action or bubbling!");
+});
+```
+This combination is helpful if you’re building complex, nested UI components.

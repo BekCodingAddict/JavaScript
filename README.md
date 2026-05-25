@@ -7,10 +7,11 @@
 
 ```
 JavaScript/
-├── _HOME.md                          ← Start here
+├── JAVASCRIPT.md                          ← Start here
+├── CLAUDE.md                              ← Repo rules and structure guide
 ├── _templates/note-template.md
 ├── Fundamentals/
-│   ├── _MOC-Fundamentals.md
+│   ├── Fundamentals.md                    ← Section MOC
 │   ├── Events/
 │   │   ├── prevent-default.md
 │   │   └── stop-propagation.md
@@ -23,14 +24,14 @@ JavaScript/
 │       ├── set-timeout.md
 │       └── set-interval.md
 ├── Vanilla-JavaScript/
-│   ├── _MOC-Vanilla-JS.md
+│   ├── Vanilla-JavaSscript.md             ← Section MOC
 │   ├── dom-selection-shorthand.md
 │   ├── pub-sub-event-communication.md
 │   ├── global-state-store.md
 │   ├── level-up-vanilla-js.md
 │   └── senior-level-architecture.md
 ├── Alpine-JS/
-│   └── _MOC-Alpine-JS.md
+│   └── Alpine-JS.md                       ← Section MOC
 └── Interview-Questions/
-    └── _MOC-Interview-Questions.md
+    └── Interview-Questions.md             ← Section MOC
 ```
